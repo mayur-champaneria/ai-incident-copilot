@@ -1,0 +1,8 @@
+{
+  "name": "mayur/ai-incident-copilot-api",
+  "description": "PHP API for AI-assisted production incident investigation",
+  "type": "project",
+  "require": { "php": ">=8.2", "ext-json": "*" },
+  "autoload": { "psr-4": { "IncidentCopilot\\": "src/" } },
+  "scripts": { "start": "php -S 127.0.0.1:8080 -t public", "test": "php tests/AnalyzerSmokeTest.php" }
+}
