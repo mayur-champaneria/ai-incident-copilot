@@ -1,0 +1,1 @@
+{"name":"ai-incident-copilot-frontend","version":"1.0.0","scripts":{"start":"vite --host 127.0.0.1 --port 4200","build":"vite build","test":"tsc --noEmit"},"dependencies":{"@vitejs/plugin-legacy":"latest","typescript":"latest","vite":"latest"},"devDependencies":{"sass-embedded":"^1.99.0"}}
