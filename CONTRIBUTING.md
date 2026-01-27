@@ -67,3 +67,4 @@ Please include:
 - Keep AI prompts explicit and structured
 - Prefer readable TypeScript over clever abstractions
 - Document new incident scenarios in `docs/incident-examples.md`
+
