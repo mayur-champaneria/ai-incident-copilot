@@ -15,3 +15,4 @@ final class JsonResponse {
         echo is_array($this->payload) ? json_encode($this->payload, JSON_PRETTY_PRINT) : $this->payload;
     }
 }
+
