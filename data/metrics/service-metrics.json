@@ -1,0 +1,58 @@
+{
+  "checkout-api": [
+    {
+      "time": "14:20",
+      "error_rate": 1.2,
+      "p95_latency_ms": 180,
+      "queue_depth": 0
+    },
+    {
+      "time": "14:35",
+      "error_rate": 28.4,
+      "p95_latency_ms": 620,
+      "queue_depth": 0
+    }
+  ],
+  "search-api": [
+    {
+      "time": "10:00",
+      "error_rate": 0.4,
+      "p95_latency_ms": 240,
+      "queue_depth": 0
+    },
+    {
+      "time": "10:15",
+      "error_rate": 2.1,
+      "p95_latency_ms": 1900,
+      "queue_depth": 0
+    }
+  ],
+  "email-worker": [
+    {
+      "time": "07:50",
+      "error_rate": 0.2,
+      "p95_latency_ms": 90,
+      "queue_depth": 18
+    },
+    {
+      "time": "08:10",
+      "error_rate": 8.4,
+      "p95_latency_ms": 400,
+      "queue_depth": 1240
+    }
+  ],
+  "auth-api": [
+    {
+      "time": "09:20",
+      "error_rate": 0.8,
+      "p95_latency_ms": 120,
+      "queue_depth": 0
+    },
+    {
+      "time": "09:45",
+      "error_rate": 31.1,
+      "p95_latency_ms": 980,
+      "queue_depth": 0
+    }
+  ]
+}
