@@ -1,0 +1,3 @@
+2026-03-19 10:12:12 WARN slow_search_query wildcard filter took 1850ms index=marketplace_products
+2026-03-19 10:12:15 WARN elasticsearch p95 latency exceeded threshold
+2026-03-19 10:13:02 ERROR search timeout after QueryBuilder wildcard expansion

@@ -1,0 +1,3 @@
+2026-03-18 14:31:55 INFO request_id=pay-992 checkout started
+2026-03-18 14:32:03 ERROR request_id=pay-992 Undefined env PAYMENT_PROVIDER_TIMEOUT in PaymentConfigLoader.php:42
+2026-03-18 14:32:05 ERROR request_id=pay-993 HTTP 500 payment authorization failed
