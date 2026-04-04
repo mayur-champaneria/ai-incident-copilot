@@ -1,0 +1,46 @@
+[
+  {
+    "version": "v1.8.3",
+    "service": "checkout-api",
+    "deployed_at": "2026-03-18T14:24:00Z",
+    "commit": "8f23a91",
+    "author": "Mayur",
+    "changes": [
+      "Refactored payment config loader",
+      "Added retry timeout configuration"
+    ]
+  },
+  {
+    "version": "v2.1.0",
+    "service": "search-api",
+    "deployed_at": "2026-03-19T10:02:00Z",
+    "commit": "c91e7bb",
+    "author": "Mayur",
+    "changes": [
+      "Updated SearchQueryBuilder wildcard matching",
+      "Adjusted marketplace filter scoring"
+    ]
+  },
+  {
+    "version": "v1.4.9",
+    "service": "email-worker",
+    "deployed_at": "2026-03-20T07:51:00Z",
+    "commit": "44dd901",
+    "author": "Mayur",
+    "changes": [
+      "Changed batch size for transactional emails",
+      "Updated worker memory guard"
+    ]
+  },
+  {
+    "version": "v3.0.2",
+    "service": "auth-api",
+    "deployed_at": "2026-03-21T09:25:00Z",
+    "commit": "de22a91",
+    "author": "Mayur",
+    "changes": [
+      "Moved sessions to Redis cluster",
+      "Updated login token storage"
+    ]
+  }
+]
