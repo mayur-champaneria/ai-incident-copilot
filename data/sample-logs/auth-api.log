@@ -1,0 +1,3 @@
+2026-03-21 09:40:08 ERROR Redis connection refused host=redis-session-01
+2026-03-21 09:40:09 ERROR session write failed for user_id=18442
+2026-03-21 09:41:02 ERROR login failed because Redis session storage unavailable
