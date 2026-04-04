@@ -1,0 +1,38 @@
+[
+  {
+    "id": "INC-2026-0042",
+    "title": "Checkout API returning 500 errors",
+    "service": "checkout-api",
+    "severity": "SEV-1",
+    "status": "Investigating",
+    "started_at": "2026-03-18T14:32:00Z",
+    "customer_impact": "Payment attempts failing for EU customers"
+  },
+  {
+    "id": "INC-2026-0043",
+    "title": "Search API latency spike",
+    "service": "search-api",
+    "severity": "SEV-2",
+    "status": "Mitigated",
+    "started_at": "2026-03-19T10:12:00Z",
+    "customer_impact": "Marketplace search results loading slowly"
+  },
+  {
+    "id": "INC-2026-0044",
+    "title": "Email queue backlog",
+    "service": "email-worker",
+    "severity": "SEV-2",
+    "status": "Monitoring",
+    "started_at": "2026-03-20T08:05:00Z",
+    "customer_impact": "Delayed transactional emails"
+  },
+  {
+    "id": "INC-2026-0045",
+    "title": "Login failures after cache outage",
+    "service": "auth-api",
+    "severity": "SEV-1",
+    "status": "Resolved",
+    "started_at": "2026-03-21T09:40:00Z",
+    "customer_impact": "Users unable to start sessions"
+  }
+]
